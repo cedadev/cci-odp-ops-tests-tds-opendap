@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Distribution Utilities setup program for CCI OGC CSW ops test package
+"""Distribution Utilities setup program for CCI TDS OPeNDAP ops test package
 
 Contrail Project
 """
