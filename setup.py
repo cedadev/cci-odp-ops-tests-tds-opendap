@@ -21,7 +21,7 @@ except ImportError:
 
 setup(
     name =              'cci-odp-ops-tests-tds-opendap',
-    version =           '0.1.0',
+    version =           '0.2.0',
     description =       'Test CCI Open Data Portal TDS OPeNDAP Service',
     long_description =  '''Tests based on unit test framework
 ''',
