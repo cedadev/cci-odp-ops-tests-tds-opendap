@@ -3,10 +3,9 @@
 """
 __author__ = "P J Kershaw"
 __date__ = "07/11/17"
-__copyright__ = "(C) 2017 Science and Technology Facilities Council"
+__copyright__ = "Copyright 2018 United Kingdom Research and Innovation"
 __license__ = """BSD - See LICENSE file in top-level directory"""
 __contact__ = "Philip.Kershaw@stfc.ac.uk"
-__revision__ = '$Id$'
 import os
 import unittest
 import xml.etree.ElementTree as ET
@@ -17,9 +16,8 @@ from pydap.client import open_url
 class TdsOpendapTestCase(unittest.TestCase):
     '''Unit test case for testing ESA CCI Open Data Portal TDS OPeNDAP'''
 
-    CCI_TDS_OPENDAP_HOSTNAME = os.getenv(
-        'CCI_TDS_OPENDAP_HOSTNAME',
-        'esgf-data1.ceda.ac.uk')
+    CCI_TDS_OPENDAP_HOSTNAME = os.getenv('CCI_TDS_OPENDAP_HOSTNAME',
+                                         'esgf-data1.ceda.ac.uk')
     
     CCI_TDS_OPENDAP_TEST01_DAP_URI = os.getenv(
         'CCI_TDS_OPENDAP_TEST01_DAP_URI',
