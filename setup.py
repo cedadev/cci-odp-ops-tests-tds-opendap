@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """Distribution Utilities setup program for CCI TDS OPeNDAP ops test package
 
-Contrail Project
 """
 __author__ = "P J Kershaw"
 __date__ = "09/11/17"
@@ -21,7 +20,7 @@ except ImportError:
 
 setup(
     name =              'cci-odp-ops-tests-tds-opendap',
-    version =           '0.2.0',
+    version =           '0.3.0',
     description =       'Test CCI Open Data Portal TDS OPeNDAP Service',
     long_description =  '''Tests based on unit test framework
 ''',
