@@ -1,0 +1,6 @@
+cci_odp_ops_tests_tds_opendap.egg-info/
+ceda/__pycache__/
+ceda/cci_odp_ops_tests/LICENSE
+ceda/cci_odp_ops_tests/__pycache__/
+ceda/cci_odp_ops_tests/nagios_test/__pycache__/
+dist/
