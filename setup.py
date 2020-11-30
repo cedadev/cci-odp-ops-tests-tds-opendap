@@ -29,7 +29,7 @@ setup(
     maintainer =        'Philip Kershaw',
     maintainer_email =  'Philip.Kershaw@stfc.ac.uk',
     platforms =         ['POSIX', 'Linux', 'Windows'],
-    install_requires =  ['requests', 'Pydap', 'nagiosplugin'],
+    install_requires =  ['xarray', 'netcdf4', 'nagiosplugin'],
     license =           __license__,
     test_suite =        '',
     packages =          find_packages(),
